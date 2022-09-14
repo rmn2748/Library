@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>A book library</h1>
+        <button class="open-form-button"> Add a book</button>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form-popup">
+                <form action="" class="form-container" id="form-toggle">
+                    <h2>Add a book to the library</h2>
+
+                    <div>
+                        <label for="title">Title:</label>
+                        <input type="text" placeholder=" Title..." name="title" id="title">
+                    </div>
+
+
+                    <div>
+                        <label for="author">Author:</label>
+                        <input type="text" name="author" id="author" placeholder=" Author...">
+                    </div>
+
+                    <div>
+                        <label for="pages"> Pages: </label>
+                        <input type="text" name="pages" id="pages" placeholder=" Number of pages...">
+                    </div>
+
+
+                    <label for="read"> Read: </label>
+                    <input type="checkbox" name="read" id="read" >
+
+                    <div class="form-buttons">
+                        <button type="button" id="close" class="close-form-button">Close form</button>
+                        <button type="button" class="add-book">Submit book</button>
+                    </div>
+
+
+
+                </form>
+            </div>
+            <table class="library-table">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Read</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+</body>
+
+</html>
